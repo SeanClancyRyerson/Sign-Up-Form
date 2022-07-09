@@ -1,0 +1,15 @@
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.accent-image {
+    width: 40vw;
+    height: 100vh;
+}
+
+.information-panel {
+    width: 60vw;
+    height: 100vh;
+}

@@ -10,44 +10,46 @@
 <body>
     <img src="./images/accentPicture.jpg" alt="Accent picture (mountains)" class="accent-image">
     <div class="information-panel">
-        <div>This is not a real online service. Nothing you input here will be saved after clicking submit. Dabes Enterprises was established in 2014 as a tech startup in the New York metropolitan area. Sign up now to get started!</div>
-        <div>You <em>know</em> you want to.</div>
+        <div class="text-container">
+            <div>This is not a real online service. Nothing you input here will be saved after clicking submit. Dabes Enterprises was established in 2014 as a tech startup in the New York metropolitan area. Sign up now to get started!</div>
+            <div>You <em>know</em> you want to.</div>
+        </div>
         <div>
             <form  class="form-window" action="">
-                <div class="input-row">
-                    <div class="input-container">
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName">
+                <div class="form-inputs">
+                    <div class="input-row">
+                        <div class="input-container">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div class="input-container">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName">
+                        </div>
                     </div>
-                    <div class="input-container">
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName">
+                    <div class="input-row">
+                        <div class="input-container">
+                            <label for="userEmail">Email:</label>
+                            <input type="email" id="userEmail">
+                        </div>
+                        <div class="input-container">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input type="tel" id="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-container">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="input-container">
+                            <label for="confirmPassword">Confirm Password:</label>
+                            <input type="password" id="confirmPassword">
+                        </div>
                     </div>
                 </div>
 
-                <div class="input-row">
-                    <div class="input-container">
-                        <label for="userEmail">Email:</label>
-                        <input type="email" id="userEmail">
-                    </div>
-                    <div class="input-container">
-                        <label for="phoneNumber">Phone Number:</label>
-                        <input type="tel" id="phoneNumber">
-                    </div>
-                </div>
-
-                <div class="input-row">
-                    <div class="input-container">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password">
-                    </div>
-                    <div class="input-container">
-                        <label for="confirmPassword">Confirm Password:</label>
-                        <input type="password" id="confirmPassword">
-                    </div>
-                </div>
-
-                <button>Create Account</button>
+                <button class="createButton">Create Account</button>
             </form>
         </div>
     </div>

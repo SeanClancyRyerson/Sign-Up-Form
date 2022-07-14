@@ -10,17 +10,20 @@ body {
 
 .pic-container {
     position: relative;
+    top: 0;
+    left: 0;
 }
 
 .accent-image {
-    position: relative;
     width: clamp(10vw, 30vw, 600px);
     height: 100vh;
 }
 
 .dabes-logo {
     position: absolute;
-    right: 150px;
+    top: 30%;
+    right: 30%;
+    
 }
 
 .text-container {
